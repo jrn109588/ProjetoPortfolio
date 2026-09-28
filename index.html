@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Joandre | Portfólio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header><b id="brand"></b>
+<nav><a href="#sobre">Sobre</a><a href="#habilidades">Habilidades</a><a href="#projetos">Projetos</a><a href="#contato">Contato</a></nav></header>
+
+<main>
+<div class="hero">
+  <div class="photo" id="photo"></div>
+  <div>
+    <h1 id="nome"></h1>
+    <pre id="json" aria-label="Resumo em formato JSON"></pre>
+  </div>
+</div>
+
+<section id="sobre"><h2>Sobre</h2><p class="lead" id="sobreTxt"></p></section>
+
+<section id="habilidades"><h2>Habilidades</h2>
+<div class="cols">
+  <div><h3>Já uso</h3><ul class="tags" id="skillsAtuais"></ul></div>
+  <div><h3>Estou aprendendo</h3><ul class="tags soft" id="skillsAprendendo"></ul></div>
+</div></section>
+
+<section id="projetos"><h2>Projetos</h2><div class="proj" id="projetos-lista"></div></section>
+
+<section id="contato"><h2>Contato</h2><div class="btns" id="contatos"></div></section>
+</main>
+<footer id="rodape"></footer>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
